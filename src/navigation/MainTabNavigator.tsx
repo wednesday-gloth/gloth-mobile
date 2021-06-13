@@ -1,6 +1,6 @@
-import MyPageScreen from '../screens/MyPageScreen';
+import DictionaryRecordsScreen from '../screens/DictionaryRecordsScreen';
 import {createStackNavigator} from 'react-navigation-stack';
 
 export default createStackNavigator({
-    MyPage: MyPageScreen,
+    DictionaryRecords: DictionaryRecordsScreen,
 });
